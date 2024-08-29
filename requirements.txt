@@ -3,3 +3,6 @@ numpy==1.23.2
 pandas==2.1.1
 coinbase==2.1.0
 flask==3.0.0
+requests==2.32.0
+gTTS==2.5.3
+scikit-learn==1.5.0

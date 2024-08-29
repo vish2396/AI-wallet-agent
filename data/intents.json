@@ -1,0 +1,24 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "How are you", "What's up"],
+        "responses": ["Hello!", "Hi there!", "Greetings!"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+        "responses": ["Goodbye!", "See you later!", "Take care!"]
+      },
+      {
+        "tag": "bitcoin_price",
+        "patterns": ["What's the Bitcoin price?", "How much is BTC worth?", "Bitcoin price"],
+        "responses": ["Let me check the current Bitcoin price for you."]
+      },
+      {
+        "tag": "ethereum_price",
+        "patterns": ["What's the Ethereum price?", "How much is ETH worth?", "Ethereum price"],
+        "responses": ["Let me check the current Ethereum price for you."]
+      }
+    ]
+  }
